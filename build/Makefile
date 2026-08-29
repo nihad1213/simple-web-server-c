@@ -161,6 +161,30 @@ src/bind.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/bind.c.s
 .PHONY : src/bind.c.s
 
+src/listen.o: src/listen.c.o
+.PHONY : src/listen.o
+
+# target to build an object file
+src/listen.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/listen.c.o
+.PHONY : src/listen.c.o
+
+src/listen.i: src/listen.c.i
+.PHONY : src/listen.i
+
+# target to preprocess a source file
+src/listen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/listen.c.i
+.PHONY : src/listen.c.i
+
+src/listen.s: src/listen.c.s
+.PHONY : src/listen.s
+
+# target to generate assembly for a file
+src/listen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/listen.c.s
+.PHONY : src/listen.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -222,6 +246,9 @@ help:
 	@echo "... src/bind.o"
 	@echo "... src/bind.i"
 	@echo "... src/bind.s"
+	@echo "... src/listen.o"
+	@echo "... src/listen.i"
+	@echo "... src/listen.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

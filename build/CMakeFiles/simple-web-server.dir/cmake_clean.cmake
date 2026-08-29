@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/simple-web-server.dir/link.d"
   "CMakeFiles/simple-web-server.dir/src/bind.c.o"
   "CMakeFiles/simple-web-server.dir/src/bind.c.o.d"
+  "CMakeFiles/simple-web-server.dir/src/listen.c.o"
+  "CMakeFiles/simple-web-server.dir/src/listen.c.o.d"
   "CMakeFiles/simple-web-server.dir/src/main.c.o"
   "CMakeFiles/simple-web-server.dir/src/main.c.o.d"
   "CMakeFiles/simple-web-server.dir/src/socket.c.o"

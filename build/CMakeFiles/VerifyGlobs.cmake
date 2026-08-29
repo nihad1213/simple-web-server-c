@@ -6,6 +6,7 @@ cmake_policy(SET CMP0009 NEW)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/*.c")
 set(OLD_GLOB
   "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/bind.c"
+  "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/listen.c"
   "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/main.c"
   "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/socket.c"
   )

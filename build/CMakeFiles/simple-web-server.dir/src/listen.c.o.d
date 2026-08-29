@@ -1,7 +1,7 @@
-CMakeFiles/simple-web-server.dir/src/main.c.o: \
- /media/nihad/HDD217/C-Learning/simple-web-server-c/src/main.c \
+CMakeFiles/simple-web-server.dir/src/listen.c.o: \
+ /media/nihad/HDD217/C-Learning/simple-web-server-c/src/listen.c \
  /usr/include/stdc-predef.h \
- /media/nihad/HDD217/C-Learning/simple-web-server-c/include/socket.h \
+ /media/nihad/HDD217/C-Learning/simple-web-server-c/include/listen.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -70,12 +70,4 @@ CMakeFiles/simple-web-server.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /media/nihad/HDD217/C-Learning/simple-web-server-c/include/bind.h \
- /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/netinet/in.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/in.h \
- /media/nihad/HDD217/C-Learning/simple-web-server-c/include/listen.h
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h

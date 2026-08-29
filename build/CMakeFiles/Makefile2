@@ -85,12 +85,12 @@ clean: CMakeFiles/simple-web-server.dir/clean
 CMakeFiles/simple-web-server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=1,2,3,4 "Built target simple-web-server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target simple-web-server"
 .PHONY : CMakeFiles/simple-web-server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple-web-server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple-web-server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles 0
 .PHONY : CMakeFiles/simple-web-server.dir/rule
@@ -102,7 +102,7 @@ simple-web-server: CMakeFiles/simple-web-server.dir/rule
 # codegen rule for target.
 CMakeFiles/simple-web-server.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target simple-web-server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target simple-web-server"
 .PHONY : CMakeFiles/simple-web-server.dir/codegen
 
 # clean rule for target.

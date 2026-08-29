@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/media/nihad/HDD217/C-Learning/simple-web-server-c/include
 
-C_FLAGS = -std=gnu2x -Wall -Wextra -Werror
+C_FLAGS = -g -std=gnu2x -Wall -Wextra -Werror
 
