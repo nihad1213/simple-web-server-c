@@ -1,1 +1,20 @@
 #include "socket.h"
+
+int create_socket() {
+    int sockfd = socket(AF_INET, SOCK_STREAM, 0);
+    printf("Socket successfully created with descriptor: %d\n", sockfd);
+    return sockfd;
+}
+
+void check_socket(int* sockfd) {
+    if (sockfd < 0) {
+        perror("Socket creation failed!");
+        exit(EXIT_FAILURE);
+    }
+}
+
+void close_socket(int* sockfd) {
+    printf("Socket closed: %d\n", sockfd);
+    close(sockfd);
+}
+

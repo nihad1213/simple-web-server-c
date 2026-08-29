@@ -6,5 +6,5 @@
 #include <unistd.h>
 
 int create_socket();
-void check_socket();
-void close_socket();
+void check_socket(int* sockfd);
+void close_socket(int* sockfd);
