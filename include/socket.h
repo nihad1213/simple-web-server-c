@@ -7,4 +7,4 @@
 
 int create_socket();
 void check_socket(int* sockfd);
-void close_socket(int* sockfd);
+int close_socket(int* sockfd);

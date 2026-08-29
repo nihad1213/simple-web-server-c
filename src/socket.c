@@ -13,7 +13,7 @@ void check_socket(int* sockfd) {
     }
 }
 
-void close_socket(int* sockfd) {
+int close_socket(int* sockfd) {
     printf("Socket closed: %d\n", sockfd);
     close(sockfd);
 }
