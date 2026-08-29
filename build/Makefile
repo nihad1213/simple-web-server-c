@@ -137,6 +137,30 @@ simple-web-server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/build
 .PHONY : simple-web-server/fast
 
+src/bind.o: src/bind.c.o
+.PHONY : src/bind.o
+
+# target to build an object file
+src/bind.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/bind.c.o
+.PHONY : src/bind.c.o
+
+src/bind.i: src/bind.c.i
+.PHONY : src/bind.i
+
+# target to preprocess a source file
+src/bind.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/bind.c.i
+.PHONY : src/bind.c.i
+
+src/bind.s: src/bind.c.s
+.PHONY : src/bind.s
+
+# target to generate assembly for a file
+src/bind.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/bind.c.s
+.PHONY : src/bind.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -195,6 +219,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... simple-web-server"
+	@echo "... src/bind.o"
+	@echo "... src/bind.i"
+	@echo "... src/bind.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/bind.c" "CMakeFiles/simple-web-server.dir/src/bind.c.o" "gcc" "CMakeFiles/simple-web-server.dir/src/bind.c.o.d"
   "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/main.c" "CMakeFiles/simple-web-server.dir/src/main.c.o" "gcc" "CMakeFiles/simple-web-server.dir/src/main.c.o.d"
   "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/socket.c" "CMakeFiles/simple-web-server.dir/src/socket.c.o" "gcc" "CMakeFiles/simple-web-server.dir/src/socket.c.o.d"
   "" "simple-web-server" "gcc" "CMakeFiles/simple-web-server.dir/link.d"
