@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/media/nihad/HDD216/C-Learning/simple-web-server-c/include
+C_INCLUDES = -I/media/nihad/HDD217/C-Learning/simple-web-server-c/include
 
 C_FLAGS = -std=gnu2x -Wall -Wextra -Werror
 

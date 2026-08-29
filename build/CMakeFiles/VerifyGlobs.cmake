@@ -3,12 +3,12 @@
 cmake_policy(SET CMP0009 NEW)
 
 # SOURCES at CMakeLists.txt:9 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/media/nihad/HDD216/C-Learning/simple-web-server-c/src/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/*.c")
 set(OLD_GLOB
-  "/media/nihad/HDD216/C-Learning/simple-web-server-c/src/include.c"
-  "/media/nihad/HDD216/C-Learning/simple-web-server-c/src/main.c"
+  "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/main.c"
+  "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/socket.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/media/nihad/HDD216/C-Learning/simple-web-server-c/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles/cmake.verify_globs")
 endif()

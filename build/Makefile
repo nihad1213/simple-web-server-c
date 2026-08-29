@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/nihad/HDD216/C-Learning/simple-web-server-c
+CMAKE_SOURCE_DIR = /media/nihad/HDD217/C-Learning/simple-web-server-c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/nihad/HDD216/C-Learning/simple-web-server-c/build
+CMAKE_BINARY_DIR = /media/nihad/HDD217/C-Learning/simple-web-server-c/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,16 +87,16 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/nihad/HDD216/C-Learning/simple-web-server-c/build/CMakeFiles /media/nihad/HDD216/C-Learning/simple-web-server-c/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles /media/nihad/HDD217/C-Learning/simple-web-server-c/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/nihad/HDD216/C-Learning/simple-web-server-c/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/nihad/HDD216/C-Learning/simple-web-server-c/build/CMakeFiles /media/nihad/HDD216/C-Learning/simple-web-server-c/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles /media/nihad/HDD217/C-Learning/simple-web-server-c/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/nihad/HDD216/C-Learning/simple-web-server-c/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles 0
 .PHONY : codegen
 
 # The main clean target
@@ -120,7 +120,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /media/nihad/HDD216/C-Learning/simple-web-server-c/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -136,30 +136,6 @@ simple-web-server: cmake_check_build_system
 simple-web-server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/build
 .PHONY : simple-web-server/fast
-
-src/include.o: src/include.c.o
-.PHONY : src/include.o
-
-# target to build an object file
-src/include.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/include.c.o
-.PHONY : src/include.c.o
-
-src/include.i: src/include.c.i
-.PHONY : src/include.i
-
-# target to preprocess a source file
-src/include.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/include.c.i
-.PHONY : src/include.c.i
-
-src/include.s: src/include.c.s
-.PHONY : src/include.s
-
-# target to generate assembly for a file
-src/include.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/include.c.s
-.PHONY : src/include.c.s
 
 src/main.o: src/main.c.o
 .PHONY : src/main.o
@@ -185,6 +161,30 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/socket.o: src/socket.c.o
+.PHONY : src/socket.o
+
+# target to build an object file
+src/socket.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/socket.c.o
+.PHONY : src/socket.c.o
+
+src/socket.i: src/socket.c.i
+.PHONY : src/socket.i
+
+# target to preprocess a source file
+src/socket.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/socket.c.i
+.PHONY : src/socket.c.i
+
+src/socket.s: src/socket.c.s
+.PHONY : src/socket.s
+
+# target to generate assembly for a file
+src/socket.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/socket.c.s
+.PHONY : src/socket.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -195,12 +195,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... simple-web-server"
-	@echo "... src/include.o"
-	@echo "... src/include.i"
-	@echo "... src/include.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/socket.o"
+	@echo "... src/socket.i"
+	@echo "... src/socket.s"
 .PHONY : help
 
 
@@ -212,7 +212,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /media/nihad/HDD216/C-Learning/simple-web-server-c/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

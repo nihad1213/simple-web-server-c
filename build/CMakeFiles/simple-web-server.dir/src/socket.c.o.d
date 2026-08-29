@@ -1,6 +1,8 @@
-CMakeFiles/simple-web-server.dir/src/main.c.o: \
- /media/nihad/HDD217/C-Learning/simple-web-server-c/src/main.c \
- /usr/include/stdc-predef.h /usr/include/stdio.h \
+CMakeFiles/simple-web-server.dir/src/socket.c.o: \
+ /media/nihad/HDD217/C-Learning/simple-web-server-c/src/socket.c \
+ /usr/include/stdc-predef.h \
+ /media/nihad/HDD217/C-Learning/simple-web-server-c/include/socket.h \
+ /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -23,9 +25,8 @@ CMakeFiles/simple-web-server.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /media/nihad/HDD217/C-Learning/simple-web-server-c/include/socket.h \
- /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \

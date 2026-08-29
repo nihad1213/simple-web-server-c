@@ -7,14 +7,15 @@ int create_socket() {
 }
 
 void check_socket(int* sockfd) {
-    if (sockfd < 0) {
+    if (*sockfd < 0) {
         perror("Socket creation failed!");
         exit(EXIT_FAILURE);
     }
 }
 
 int close_socket(int* sockfd) {
-    printf("Socket closed: %d\n", sockfd);
-    close(sockfd);
+    printf("Socket closed: %ls\n", sockfd);
+    int result = close(*sockfd);
+    return result;
 }
 
