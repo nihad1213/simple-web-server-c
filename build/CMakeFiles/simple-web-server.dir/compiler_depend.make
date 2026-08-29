@@ -271,9 +271,12 @@ simple-web-server: /lib/x86_64-linux-gnu/libc.so.6 \
   /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so \
   /usr/lib/x86_64-linux-gnu/libc_nonshared.a \
+  CMakeFiles/simple-web-server.dir/src/bind.c.o \
   CMakeFiles/simple-web-server.dir/src/main.c.o \
   CMakeFiles/simple-web-server.dir/src/socket.c.o
 
+
+CMakeFiles/simple-web-server.dir/src/bind.c.o:
 
 /usr/lib/x86_64-linux-gnu/libc_nonshared.a:
 

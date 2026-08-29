@@ -275,6 +275,7 @@ simple-web-server
  /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a
  /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so
  /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+ /media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles/simple-web-server.dir/src/bind.c.o
  /media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles/simple-web-server.dir/src/main.c.o
  /media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles/simple-web-server.dir/src/socket.c.o
 

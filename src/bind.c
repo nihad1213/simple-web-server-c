@@ -8,11 +8,12 @@ int bind_socket(int* sockfd) {
     address.sin_addr.s_addr = INADDR_ANY;
     address.sin_port = htons(PORT);
 
-    if (bind(&sockfd, (struct sockaddr*)&address, sizeof(address)) < 0) {
+    if (bind(*sockfd, (struct sockaddr*)&address, sizeof(address)) < 0) {
         perror("Bind failed");
-        close(sockfd);
+        close(*sockfd);
         exit(EXIT_FAILURE);
     }
 
     printf("Socket successfully bound to port %d\n", PORT);
+    return 0;
 }

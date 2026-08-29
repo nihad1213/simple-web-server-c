@@ -2,6 +2,7 @@ simple-web-server: \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
+  CMakeFiles/simple-web-server.dir/src/bind.c.o \
   CMakeFiles/simple-web-server.dir/src/main.c.o \
   CMakeFiles/simple-web-server.dir/src/socket.c.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a \
@@ -31,6 +32,8 @@ simple-web-server: \
 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o:
+
+CMakeFiles/simple-web-server.dir/src/bind.c.o:
 
 CMakeFiles/simple-web-server.dir/src/main.c.o:
 
