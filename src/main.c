@@ -12,6 +12,9 @@ int main() {
 
     listen_socket(&sockfd);
 
+    // TEMPORARY
+    sleep(60);
+
     close_socket(&sockfd);
 
     return 0;
