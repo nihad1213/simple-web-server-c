@@ -163,6 +163,33 @@ CMakeFiles/simple-web-server.dir/src/socket.c.o: /media/nihad/HDD217/C-Learning/
   /usr/lib/linux/uapi/x86/asm/socket.h \
   /usr/lib/linux/uapi/x86/asm/sockios.h
 
+simple-web-server: /lib/x86_64-linux-gnu/libc.so.6 \
+  /lib64/ld-linux-x86-64.so.2 \
+  /usr/lib/x86_64-linux-gnu/Scrt1.o \
+  /usr/lib/x86_64-linux-gnu/crti.o \
+  /usr/lib/x86_64-linux-gnu/crtn.o \
+  /usr/lib/x86_64-linux-gnu/libc.so \
+  /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 \
+  /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
+  /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o \
+  /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a \
+  /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so \
+  /usr/lib/x86_64-linux-gnu/libc_nonshared.a \
+  CMakeFiles/simple-web-server.dir/src/main.c.o \
+  CMakeFiles/simple-web-server.dir/src/socket.c.o
+
+
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so:
+
+/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o:
+
+/usr/lib/x86_64-linux-gnu/libc.so:
+
+/usr/lib/x86_64-linux-gnu/crti.o:
+
+/usr/lib/x86_64-linux-gnu/Scrt1.o:
 
 /media/nihad/HDD217/C-Learning/simple-web-server-c/src/socket.c:
 
@@ -173,6 +200,8 @@ CMakeFiles/simple-web-server.dir/src/socket.c.o: /media/nihad/HDD217/C-Learning/
 /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
+
+CMakeFiles/simple-web-server.dir/src/main.c.o:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -192,9 +221,15 @@ CMakeFiles/simple-web-server.dir/src/socket.c.o: /media/nihad/HDD217/C-Learning/
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a:
+
 /media/nihad/HDD217/C-Learning/simple-web-server-c/src/main.c:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
+
+CMakeFiles/simple-web-server.dir/src/socket.c.o:
+
+/usr/lib/x86_64-linux-gnu/libgcc_s.so.1:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
@@ -258,6 +293,8 @@ CMakeFiles/simple-web-server.dir/src/socket.c.o: /media/nihad/HDD217/C-Learning/
 
 /usr/include/asm-generic/posix_types.h:
 
+/lib/x86_64-linux-gnu/libc.so.6:
+
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/asm-generic/sockios.h:
@@ -271,6 +308,8 @@ CMakeFiles/simple-web-server.dir/src/socket.c.o: /media/nihad/HDD217/C-Learning/
 /usr/include/asm-generic/socket.h:
 
 /usr/include/features-time64.h:
+
+/lib64/ld-linux-x86-64.so.2:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
@@ -290,11 +329,15 @@ CMakeFiles/simple-web-server.dir/src/socket.c.o: /media/nihad/HDD217/C-Learning/
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o:
+
 /usr/include/x86_64-linux-gnu/sys/socket.h:
 
 /usr/include/stdc-predef.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/lib/x86_64-linux-gnu/crtn.o:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 

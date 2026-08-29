@@ -14,8 +14,8 @@ void check_socket(int* sockfd) {
 }
 
 int close_socket(int* sockfd) {
-    printf("Socket closed: %ls\n", sockfd);
     int result = close(*sockfd);
+    printf("Socket closed: %d\n", result);
     return result;
 }
 
