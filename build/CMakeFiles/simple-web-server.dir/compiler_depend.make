@@ -89,8 +89,90 @@ CMakeFiles/simple-web-server.dir/src/bind.c.o: /media/nihad/HDD217/C-Learning/si
   /usr/lib/linux/uapi/x86/asm/socket.h \
   /usr/lib/linux/uapi/x86/asm/sockios.h
 
+CMakeFiles/simple-web-server.dir/src/listen.c.o: /media/nihad/HDD217/C-Learning/simple-web-server-c/src/listen.c \
+  /media/nihad/HDD217/C-Learning/simple-web-server-c/include/listen.h \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/socket.h \
+  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/socket.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
+  /usr/lib/linux/uapi/x86/asm/bitsperlong.h \
+  /usr/lib/linux/uapi/x86/asm/posix_types.h \
+  /usr/lib/linux/uapi/x86/asm/posix_types_64.h \
+  /usr/lib/linux/uapi/x86/asm/socket.h \
+  /usr/lib/linux/uapi/x86/asm/sockios.h
+
 CMakeFiles/simple-web-server.dir/src/main.c.o: /media/nihad/HDD217/C-Learning/simple-web-server-c/src/main.c \
   /media/nihad/HDD217/C-Learning/simple-web-server-c/include/bind.h \
+  /media/nihad/HDD217/C-Learning/simple-web-server-c/include/listen.h \
   /media/nihad/HDD217/C-Learning/simple-web-server-c/include/socket.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -272,9 +354,12 @@ simple-web-server: /lib/x86_64-linux-gnu/libc.so.6 \
   /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so \
   /usr/lib/x86_64-linux-gnu/libc_nonshared.a \
   CMakeFiles/simple-web-server.dir/src/bind.c.o \
+  CMakeFiles/simple-web-server.dir/src/listen.c.o \
   CMakeFiles/simple-web-server.dir/src/main.c.o \
   CMakeFiles/simple-web-server.dir/src/socket.c.o
 
+
+CMakeFiles/simple-web-server.dir/src/listen.c.o:
 
 CMakeFiles/simple-web-server.dir/src/bind.c.o:
 
@@ -294,6 +379,8 @@ CMakeFiles/simple-web-server.dir/src/bind.c.o:
 
 /media/nihad/HDD217/C-Learning/simple-web-server-c/src/main.c:
 
+/media/nihad/HDD217/C-Learning/simple-web-server-c/include/listen.h:
+
 /usr/lib/linux/uapi/x86/asm/socket.h:
 
 /usr/lib/linux/uapi/x86/asm/bitsperlong.h:
@@ -311,6 +398,8 @@ CMakeFiles/simple-web-server.dir/src/main.c.o:
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/media/nihad/HDD217/C-Learning/simple-web-server-c/src/listen.c:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
