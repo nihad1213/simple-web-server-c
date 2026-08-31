@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/simple-web-server.dir/src/listen.c.o.d"
   "CMakeFiles/simple-web-server.dir/src/main.c.o"
   "CMakeFiles/simple-web-server.dir/src/main.c.o.d"
+  "CMakeFiles/simple-web-server.dir/src/request.c.o"
+  "CMakeFiles/simple-web-server.dir/src/request.c.o.d"
   "CMakeFiles/simple-web-server.dir/src/socket.c.o"
   "CMakeFiles/simple-web-server.dir/src/socket.c.o.d"
   "simple-web-server"

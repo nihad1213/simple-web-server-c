@@ -2,6 +2,7 @@
 #include "bind.h"
 #include "listen.h"
 #include "accept.h"
+#include "request.h"
 
 int main() {
 
@@ -14,6 +15,9 @@ int main() {
     listen_socket(&sockfd);
 
     int client_fd = accept_socket(&sockfd);
+
+    char buffer[BUFFER_SIZE];
+    read_request(&client_fd, buffer);
 
     close(client_fd);
 

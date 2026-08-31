@@ -233,6 +233,30 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/request.o: src/request.c.o
+.PHONY : src/request.o
+
+# target to build an object file
+src/request.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/request.c.o
+.PHONY : src/request.c.o
+
+src/request.i: src/request.c.i
+.PHONY : src/request.i
+
+# target to preprocess a source file
+src/request.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/request.c.i
+.PHONY : src/request.c.i
+
+src/request.s: src/request.c.s
+.PHONY : src/request.s
+
+# target to generate assembly for a file
+src/request.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/request.c.s
+.PHONY : src/request.c.s
+
 src/socket.o: src/socket.c.o
 .PHONY : src/socket.o
 
@@ -279,6 +303,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/request.o"
+	@echo "... src/request.i"
+	@echo "... src/request.s"
 	@echo "... src/socket.o"
 	@echo "... src/socket.i"
 	@echo "... src/socket.s"

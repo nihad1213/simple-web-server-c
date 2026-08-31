@@ -6,6 +6,7 @@ simple-web-server: \
   CMakeFiles/simple-web-server.dir/src/bind.c.o \
   CMakeFiles/simple-web-server.dir/src/listen.c.o \
   CMakeFiles/simple-web-server.dir/src/main.c.o \
+  CMakeFiles/simple-web-server.dir/src/request.c.o \
   CMakeFiles/simple-web-server.dir/src/socket.c.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so \
@@ -42,6 +43,8 @@ CMakeFiles/simple-web-server.dir/src/bind.c.o:
 CMakeFiles/simple-web-server.dir/src/listen.c.o:
 
 CMakeFiles/simple-web-server.dir/src/main.c.o:
+
+CMakeFiles/simple-web-server.dir/src/request.c.o:
 
 CMakeFiles/simple-web-server.dir/src/socket.c.o:
 
