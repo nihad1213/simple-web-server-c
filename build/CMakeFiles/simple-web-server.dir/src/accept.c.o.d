@@ -1,7 +1,7 @@
-CMakeFiles/simple-web-server.dir/src/main.c.o: \
- /media/nihad/HDD217/C-Learning/simple-web-server-c/src/main.c \
+CMakeFiles/simple-web-server.dir/src/accept.c.o: \
+ /media/nihad/HDD217/C-Learning/simple-web-server-c/src/accept.c \
  /usr/include/stdc-predef.h \
- /media/nihad/HDD217/C-Learning/simple-web-server-c/include/socket.h \
+ /media/nihad/HDD217/C-Learning/simple-web-server-c/include/accept.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -65,18 +65,12 @@ CMakeFiles/simple-web-server.dir/src/main.c.o: \
  /usr/include/asm-generic/bitsperlong.h \
  /usr/lib/linux/uapi/x86/asm/sockios.h /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
- /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/netinet/in.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /media/nihad/HDD217/C-Learning/simple-web-server-c/include/bind.h \
- /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/netinet/in.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/in.h \
- /media/nihad/HDD217/C-Learning/simple-web-server-c/include/listen.h \
- /media/nihad/HDD217/C-Learning/simple-web-server-c/include/accept.h
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h

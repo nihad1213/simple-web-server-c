@@ -137,6 +137,30 @@ simple-web-server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/build
 .PHONY : simple-web-server/fast
 
+src/accept.o: src/accept.c.o
+.PHONY : src/accept.o
+
+# target to build an object file
+src/accept.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/accept.c.o
+.PHONY : src/accept.c.o
+
+src/accept.i: src/accept.c.i
+.PHONY : src/accept.i
+
+# target to preprocess a source file
+src/accept.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/accept.c.i
+.PHONY : src/accept.c.i
+
+src/accept.s: src/accept.c.s
+.PHONY : src/accept.s
+
+# target to generate assembly for a file
+src/accept.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple-web-server.dir/build.make CMakeFiles/simple-web-server.dir/src/accept.c.s
+.PHONY : src/accept.c.s
+
 src/bind.o: src/bind.c.o
 .PHONY : src/bind.o
 
@@ -243,6 +267,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... simple-web-server"
+	@echo "... src/accept.o"
+	@echo "... src/accept.i"
+	@echo "... src/accept.s"
 	@echo "... src/bind.o"
 	@echo "... src/bind.i"
 	@echo "... src/bind.s"

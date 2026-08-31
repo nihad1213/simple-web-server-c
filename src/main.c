@@ -1,6 +1,7 @@
 #include "socket.h"
 #include "bind.h"
 #include "listen.h"
+#include "accept.h"
 
 int main() {
 
@@ -12,8 +13,9 @@ int main() {
 
     listen_socket(&sockfd);
 
-    // TEMPORARY
-    sleep(60);
+    int client_fd = accept_socket(&sockfd);
+
+    close(client_fd);
 
     close_socket(&sockfd);
 

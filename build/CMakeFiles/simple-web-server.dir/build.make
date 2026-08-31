@@ -72,10 +72,24 @@ include CMakeFiles/simple-web-server.dir/flags.make
 CMakeFiles/simple-web-server.dir/codegen:
 .PHONY : CMakeFiles/simple-web-server.dir/codegen
 
+CMakeFiles/simple-web-server.dir/src/accept.c.o: CMakeFiles/simple-web-server.dir/flags.make
+CMakeFiles/simple-web-server.dir/src/accept.c.o: /media/nihad/HDD217/C-Learning/simple-web-server-c/src/accept.c
+CMakeFiles/simple-web-server.dir/src/accept.c.o: CMakeFiles/simple-web-server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/simple-web-server.dir/src/accept.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/simple-web-server.dir/src/accept.c.o -MF CMakeFiles/simple-web-server.dir/src/accept.c.o.d -o CMakeFiles/simple-web-server.dir/src/accept.c.o -c /media/nihad/HDD217/C-Learning/simple-web-server-c/src/accept.c
+
+CMakeFiles/simple-web-server.dir/src/accept.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/simple-web-server.dir/src/accept.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/nihad/HDD217/C-Learning/simple-web-server-c/src/accept.c > CMakeFiles/simple-web-server.dir/src/accept.c.i
+
+CMakeFiles/simple-web-server.dir/src/accept.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/simple-web-server.dir/src/accept.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/nihad/HDD217/C-Learning/simple-web-server-c/src/accept.c -o CMakeFiles/simple-web-server.dir/src/accept.c.s
+
 CMakeFiles/simple-web-server.dir/src/bind.c.o: CMakeFiles/simple-web-server.dir/flags.make
 CMakeFiles/simple-web-server.dir/src/bind.c.o: /media/nihad/HDD217/C-Learning/simple-web-server-c/src/bind.c
 CMakeFiles/simple-web-server.dir/src/bind.c.o: CMakeFiles/simple-web-server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/simple-web-server.dir/src/bind.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/simple-web-server.dir/src/bind.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/simple-web-server.dir/src/bind.c.o -MF CMakeFiles/simple-web-server.dir/src/bind.c.o.d -o CMakeFiles/simple-web-server.dir/src/bind.c.o -c /media/nihad/HDD217/C-Learning/simple-web-server-c/src/bind.c
 
 CMakeFiles/simple-web-server.dir/src/bind.c.i: cmake_force
@@ -89,7 +103,7 @@ CMakeFiles/simple-web-server.dir/src/bind.c.s: cmake_force
 CMakeFiles/simple-web-server.dir/src/listen.c.o: CMakeFiles/simple-web-server.dir/flags.make
 CMakeFiles/simple-web-server.dir/src/listen.c.o: /media/nihad/HDD217/C-Learning/simple-web-server-c/src/listen.c
 CMakeFiles/simple-web-server.dir/src/listen.c.o: CMakeFiles/simple-web-server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/simple-web-server.dir/src/listen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/simple-web-server.dir/src/listen.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/simple-web-server.dir/src/listen.c.o -MF CMakeFiles/simple-web-server.dir/src/listen.c.o.d -o CMakeFiles/simple-web-server.dir/src/listen.c.o -c /media/nihad/HDD217/C-Learning/simple-web-server-c/src/listen.c
 
 CMakeFiles/simple-web-server.dir/src/listen.c.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/simple-web-server.dir/src/listen.c.s: cmake_force
 CMakeFiles/simple-web-server.dir/src/main.c.o: CMakeFiles/simple-web-server.dir/flags.make
 CMakeFiles/simple-web-server.dir/src/main.c.o: /media/nihad/HDD217/C-Learning/simple-web-server-c/src/main.c
 CMakeFiles/simple-web-server.dir/src/main.c.o: CMakeFiles/simple-web-server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/simple-web-server.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/simple-web-server.dir/src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/simple-web-server.dir/src/main.c.o -MF CMakeFiles/simple-web-server.dir/src/main.c.o.d -o CMakeFiles/simple-web-server.dir/src/main.c.o -c /media/nihad/HDD217/C-Learning/simple-web-server-c/src/main.c
 
 CMakeFiles/simple-web-server.dir/src/main.c.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/simple-web-server.dir/src/main.c.s: cmake_force
 CMakeFiles/simple-web-server.dir/src/socket.c.o: CMakeFiles/simple-web-server.dir/flags.make
 CMakeFiles/simple-web-server.dir/src/socket.c.o: /media/nihad/HDD217/C-Learning/simple-web-server-c/src/socket.c
 CMakeFiles/simple-web-server.dir/src/socket.c.o: CMakeFiles/simple-web-server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/simple-web-server.dir/src/socket.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/simple-web-server.dir/src/socket.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/simple-web-server.dir/src/socket.c.o -MF CMakeFiles/simple-web-server.dir/src/socket.c.o.d -o CMakeFiles/simple-web-server.dir/src/socket.c.o -c /media/nihad/HDD217/C-Learning/simple-web-server-c/src/socket.c
 
 CMakeFiles/simple-web-server.dir/src/socket.c.i: cmake_force
@@ -130,6 +144,7 @@ CMakeFiles/simple-web-server.dir/src/socket.c.s: cmake_force
 
 # Object files for target simple-web-server
 simple__web__server_OBJECTS = \
+"CMakeFiles/simple-web-server.dir/src/accept.c.o" \
 "CMakeFiles/simple-web-server.dir/src/bind.c.o" \
 "CMakeFiles/simple-web-server.dir/src/listen.c.o" \
 "CMakeFiles/simple-web-server.dir/src/main.c.o" \
@@ -138,6 +153,7 @@ simple__web__server_OBJECTS = \
 # External object files for target simple-web-server
 simple__web__server_EXTERNAL_OBJECTS =
 
+simple-web-server: CMakeFiles/simple-web-server.dir/src/accept.c.o
 simple-web-server: CMakeFiles/simple-web-server.dir/src/bind.c.o
 simple-web-server: CMakeFiles/simple-web-server.dir/src/listen.c.o
 simple-web-server: CMakeFiles/simple-web-server.dir/src/main.c.o
@@ -145,7 +161,7 @@ simple-web-server: CMakeFiles/simple-web-server.dir/src/socket.c.o
 simple-web-server: CMakeFiles/simple-web-server.dir/build.make
 simple-web-server: CMakeFiles/simple-web-server.dir/compiler_depend.ts
 simple-web-server: CMakeFiles/simple-web-server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable simple-web-server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/nihad/HDD217/C-Learning/simple-web-server-c/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable simple-web-server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple-web-server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
