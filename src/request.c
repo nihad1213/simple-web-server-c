@@ -13,3 +13,13 @@ int read_request(int* client_fd, char* buffer) {
     printf("Received request:\n%s\n", buffer);
     return (int)bytes_read;
 }
+
+int parse_request(const char* raw_request, http_request_t* request) {
+    memset(request, 0, sizeof(*request));
+
+    if (sscanf(raw_request, "%15s %1023s", request->method, request->path) != 2) {
+        return -1;
+    }
+
+    return 0;
+}

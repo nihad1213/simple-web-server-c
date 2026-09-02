@@ -10,6 +10,7 @@ set(OLD_GLOB
   "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/listen.c"
   "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/main.c"
   "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/request.c"
+  "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/response.c"
   "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/socket.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

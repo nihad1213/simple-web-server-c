@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/listen.c" "CMakeFiles/simple-web-server.dir/src/listen.c.o" "gcc" "CMakeFiles/simple-web-server.dir/src/listen.c.o.d"
   "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/main.c" "CMakeFiles/simple-web-server.dir/src/main.c.o" "gcc" "CMakeFiles/simple-web-server.dir/src/main.c.o.d"
   "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/request.c" "CMakeFiles/simple-web-server.dir/src/request.c.o" "gcc" "CMakeFiles/simple-web-server.dir/src/request.c.o.d"
+  "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/response.c" "CMakeFiles/simple-web-server.dir/src/response.c.o" "gcc" "CMakeFiles/simple-web-server.dir/src/response.c.o.d"
   "/media/nihad/HDD217/C-Learning/simple-web-server-c/src/socket.c" "CMakeFiles/simple-web-server.dir/src/socket.c.o" "gcc" "CMakeFiles/simple-web-server.dir/src/socket.c.o.d"
   "" "simple-web-server" "gcc" "CMakeFiles/simple-web-server.dir/link.d"
   )

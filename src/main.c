@@ -3,6 +3,7 @@
 #include "listen.h"
 #include "accept.h"
 #include "request.h"
+#include "response.h"
 
 int main() {
 
@@ -14,14 +15,19 @@ int main() {
 
     listen_socket(&sockfd);
 
-    int client_fd = accept_socket(&sockfd);
+    while (1) {
+        int client_fd = accept_socket(&sockfd);
 
-    char buffer[BUFFER_SIZE];
-    read_request(&client_fd, buffer);
+        char buffer[BUFFER_SIZE];
+        read_request(&client_fd, buffer);
 
-    close(client_fd);
+        http_request_t request;
+        if (parse_request(buffer, &request) == 0) {
+            handle_request(client_fd, &request);
+        }
 
-    close_socket(&sockfd);
+        close(client_fd);
+    }
 
     return 0;
 }
